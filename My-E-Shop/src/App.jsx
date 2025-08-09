@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from './context/AuthContext';
-//global styles
+// Import Styles
 import './index.css';
 
 // Import Components
