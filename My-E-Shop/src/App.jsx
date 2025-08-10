@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from './context/AuthContext';
-// Import Styles
-import './index.css';
+// Import Style
 
 // Import Components
 import Navbar from './components/common/Navbar';

@@ -3,6 +3,7 @@ import ProductCard from '../components/common/ProductCard';
 import api from '../services/api';
 import { useCart } from '../context/CartContext';
 
+
 const HomePage = ({ setPage }) => {
     const [featuredProducts, setFeaturedProducts] = useState([]);
     const { addToCart } = useCart();
